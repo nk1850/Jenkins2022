@@ -30,4 +30,10 @@ public class helloController {
 	{
 		return "<h1>Welcome </h1>";
 	}
+	
+	@RequestMapping("/greet")
+	public String greet()
+	{
+		return "<h1>Good Morining !! </h1>";
+	}
 }
