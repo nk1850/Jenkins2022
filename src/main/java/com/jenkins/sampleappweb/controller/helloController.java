@@ -18,4 +18,10 @@ public class helloController {
 	{
 		return "<h1>Welcome to Jenkins and saying hi </h1>";
 	}
+	
+	@RequestMapping("/bye")
+	public String sayBye()
+	{
+		return "<h1>Good Bye </h1>";
+	}
 }
